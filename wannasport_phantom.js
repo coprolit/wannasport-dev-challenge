@@ -7,6 +7,8 @@
 var webPage = require('webpage');
 var page = webPage.create();
 var url = 'http://www.kerteminde-tennisklub.dk/Activity/BookingSheet';
+var today = Number(new Date().toISOString().slice(0, 10).replace(/-/g, ""));
+
 var settings = {
     operation: "POST",
     encoding: "utf8",
@@ -14,8 +16,8 @@ var settings = {
         "Content-Type": "application/json"
     },
     data: JSON.stringify({
-        date: 20151012,
-        days: 1,
+        date: today,
+        days: 7,
         activity: 'Activity2520714441261358577',
         view: null
     })
