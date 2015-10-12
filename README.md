@@ -6,4 +6,4 @@ The solution is a small phantomJS program. Due to the lack of a proper data API,
 
 ### Usage
 
-run `wannasport-phantom.js` with following arguments `[start date] [duratin]`, where `start date` is the starting point and `duration` the amount of days to evaluate. Example `wannasport-phantom.js 20151012 7`.
+run `wannasport-phantom.js` with following arguments `[start date] [duration]`, where `start date` is the starting point and `duration` the amount of days to evaluate. Example `wannasport-phantom.js 20151012 7`.
